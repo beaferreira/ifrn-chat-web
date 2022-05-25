@@ -1,8 +1,3 @@
 import React from 'react';
 
-export const AppInput = props => (
-  <div>
-    <label>{props.label}</label>
-    <input type={props.type} title={props.title} />
-  </div>
-);
+export const AppContainer = props => <div>{props.children}</div>;
