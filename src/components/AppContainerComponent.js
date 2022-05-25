@@ -1,3 +1,8 @@
 import React from 'react';
 
-export const AppContainer = props => <div>{props.children}</div>;
+export const AppInput = props => (
+  <div>
+    <label>{props.label}</label>
+    <input type={props.type} title={props.title} />
+  </div>
+);
